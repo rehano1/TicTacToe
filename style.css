@@ -1,6 +1,13 @@
 
-
-
+body {
+    background-color: #B2A5FF;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
@@ -8,7 +15,6 @@
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    margin: 0 auto;
 }
 .cell {
     display: flex;
@@ -21,7 +27,7 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: #B2A5FF;
     padding: 10px;
     max-width: 400px;
     margin: 0 auto;
@@ -32,19 +38,19 @@
 
 #restart-game {
     display:inline-block;
-    background-color: #004466;
-    width: 360px;
-    padding: 15px 35px;
+    background-color: #DAD2FF;
+    width: 200px;
     margin-top: 20px;
-    border: 4px solid #004466;
+    border: 4px solid #B2A5FF;
     border-radius: 25px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Pangolin',sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     color: white;
+    padding: 16px;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     transition: all 0.2s;
+    color: black;
 }
 #restart-game:focus {
     outline: none;
